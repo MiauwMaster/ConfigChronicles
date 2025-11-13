@@ -53,6 +53,7 @@ try {
 }
 catch {
     Write-Host "Failed to import Microsoft Graph Device Management Enrollment module. Please ensure the Microsoft.Graph module is installed." -ForegroundColor Red
+    exit 1
 }
 
 
